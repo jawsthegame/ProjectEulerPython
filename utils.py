@@ -23,10 +23,13 @@ def get_primes(n):
 
     return primes
 
-
 def is_prime(n):
     for x in range(2, n - 1):
         if n % x == 0:
             return 0
 
     return n != 1
+
+def factorial(n):
+    if n == 1: return n
+    return n * factorial(n - 1)

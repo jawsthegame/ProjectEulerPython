@@ -1,5 +1,5 @@
 __author__ = 'tfleischer'
 
-import problem04
+import problem07
 
-print problem04.run()
+print problem07.run()
